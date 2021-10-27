@@ -1,0 +1,49 @@
+.divContainer {
+    margin-top: -80px;
+    width: 100%;
+    height: 380px;
+    background-image: linear-gradient(to right top, #7c3582, #96347c, #ac3674, #be3c69, #cc475e, #d45157, #da5d50, #de694a, #e27348, #e57e45, #e78844, #e99343);
+}
+
+.contentContainer {
+    padding: 130px 20px 0 20px;
+    margin: 0 auto;
+}
+
+.contentContainer h1 {
+    color: white;
+}
+
+.contentContainer p {
+    margin-top: 20px;
+    color: white;
+}
+
+.containerButton {
+    margin-top: 26px;
+    display: flex;  
+    
+}
+
+.btn-Header {
+    
+    margin: 0 auto 20px auto;
+    padding: 12px 38px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #cc475e;
+    background: white;    
+}
+
+.btn-Header:hover {
+    color: #7c3582;
+}
+
+/*  Quando o tamanho da tela for maior do que 720 px */
+@media screen and (min-width: 720px) {
+    .contentContainer {
+        text-align: center;
+    }
+}

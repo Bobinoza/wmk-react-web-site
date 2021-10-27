@@ -1,0 +1,46 @@
+.containerFooter {
+    border-top: 1px solid #fff;
+    background: black;
+    display: grid;
+    color: white;
+    text-align: center;
+}
+
+.wrapFooter {
+    padding: 40px 0;
+    margin: 0 auto;
+}
+
+.titleFooter {
+    font-size: 1.2rem;
+}
+
+.wrapYearAndTerms {
+    margin-top: 40px;
+}
+
+.copyright {
+    font-size: 0.7rem;
+}
+
+.paragraphTerms {
+    margin-top: 10px;
+    font-size: 0.7rem;
+}
+.paragraphTerms p a {
+    color: white;
+    text-decoration: none;
+}
+
+.wrapSocialmedia {
+    margin-top: 40px;
+}
+
+.wrapSocialmedia i {
+    padding-left: 30px;
+    font-size: 1.8rem;
+}
+
+.wrapSocialmedia i:hover {
+    color: #d45157;
+}
